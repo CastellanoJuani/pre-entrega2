@@ -7,6 +7,8 @@ html, body {
     height: 100%;
 }
 
+
+
 .containter {
     display: grid;
     grid-auto-columns: 1fr;
@@ -23,6 +25,8 @@ header {
 }
 
 .logo {
+    animation: bounce;
+    animation-duration:2s;
     margin-top: 10px;
     display: flex;
     flex-direction: column;
